@@ -1,0 +1,129 @@
+*{
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+header  {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(124, 29, 239);
+}
+header ul a{
+    padding: 5px 10px;
+    color: black;
+}
+ul li{
+    float: left;
+    margin-right: 20px;
+}
+h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -99999px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+h1 a{
+display: block;
+width: 70px;
+height: 70px;
+
+}
+
+header nav {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+header ul a:active{
+    color: brown;
+}
+header ul a:hover{
+    color: aliceblue;
+    background-color: brown;
+    font-size: 50px;
+}
+ul>:first-child{
+background-color: aqua;
+}
+ul>:last-child{
+    background-color: aqua;
+}
+ul>:nth-child(2){
+    background-color: brown;
+}
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    float: left;
+    margin: 20px;
+}
+.text1{
+    clear: both;
+    text-indent: 50px;
+}
+.samitolinacili{
+    height: 50px;
+    width: 33.333%;
+    background-color: blueviolet;
+    float: left;
+    margin-bottom: 30px;
+}
+.peri2{
+    background-color: rgb(113, 15, 205);
+}
+.peri3{
+    background-color: rgb(74, 14, 130);
+}
+.naxevarqatama{
+    width: 50%;
+    height: 200px;
+    background-color: rgb(207, 163, 40);
+    border: 1px solid coral;
+    clear: both;
+    margin: 0 auto;
+}
+.mshobeli{
+    width: 90%;
+    margin: 0 auto;
+}
+.imageconteineri{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.imageconteineri img {
+    width: 100%;
+    
+
+}
+.text1::first-line{
+    color: brown;
+}
+.text1::first-letter{
+    font-size: 30px;
+}
+.text1::selection{
+    background-color: black;
+    color: aliceblue;
+}
+.conversation::before{
+    content:"-";
+}
+.conversation::after{
+content: "?";
+}
+
